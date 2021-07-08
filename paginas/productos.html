@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DIRICO</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/all.css">
+	<link rel="stylesheet" href="../css/cabecera.css">
+	<link rel="stylesheet" href="../css/pie.css">
+	<link rel="stylesheet" href="../css/estilos-productos.css">
+	<link rel="icon" href="../imagenes/logo.ico">
+</head>
+
+<body>
+	<div id="contenedor">
+		<header>
+			<div class="barra-inicial">
+				<div class="logo">
+					<a href="../index.html"><img src="../imagenes/logo.PNG"></a>
+				</div>
+				<nav>
+					<ul class="menu">
+						<li><a href="la_empresa.html">LA EMPRESA</a>
+							<ul>
+								<li><a href="la_empresa.html">SOBRE NOSOTROS</a></li>
+							</ul>
+						</li>
+						<li><a href="productos.html">PRODUCTOS</a>
+							<ul>
+								<li><a href="productos.html">HOMBRE</a></li>
+								<li><a href="productos.html">MUJER</a></li>
+								<li><a href="productos.html">NIÑO</a></li>
+							</ul>
+						</li>
+						<li><a href="promociones.html">PROMOCIONES</a></li>
+						<li><a href="contacto.html">CONTACTO</a></li>
+					</ul>
+				</nav>
+				<div class="otros">
+					<input class="buscar" type="search" name="buscar" id="buscar" placeholder="Buscar...">
+					<a href="iniciar_sesion.html"><i class="fas fa-user"></i></a>
+					<a href="carrito.html">
+						<i class="fas fa-shopping-cart"></i>
+						<div>
+							
+						</div>
+					</a>
+				</div>
+			</div>
+		</header>
+		<main>
+			<input type="radio" name="sexo" id="sexo" checked>
+			<input type="radio" name="sexo" id="hombre">
+			<input type="radio" name="sexo" id="mujer">
+			<input type="radio" name="sexo" id="niño">
+			<input type="radio" name="categoria" id="categoria" checked>
+			<input type="radio" name="categoria" id="zapatillas">
+			<input type="radio" name="categoria" id="ropa">
+			<input type="radio" name="categoria" id="accesorios">
+			<input type="radio" name="marca" id="marca" checked>
+			<input type="radio" name="marca" id="adidas">
+			<input type="radio" name="marca" id="nike">
+			<input type="radio" name="marca" id="puma">
+			<aside>
+				<h2>FILTRAR PRODUCTOS</h2>
+				<h3>SEXO</h3>
+				<label for="sexo">Todos</label>
+				<label for="hombre">Hombre</label>
+				<label for="mujer">Mujer</label>
+				<label for="niño">Niño</label>
+				<h3>CATEGORÍA</h3>
+				<label for="categoria">Todos</label>
+				<label for="zapatillas">Zapatillas</label>
+				<label for="ropa">Ropa</label>
+				<label for="accesorios">Accesorios</label>
+				<h3>MARCA</h3>
+				<label for="marca">Todos</label>
+				<label for="adidas">Adidas</label>
+				<label for="nike">Nike</label>
+				<label for="puma">Puma</label>
+			</aside>
+			<section>
+				<h2>PRODUCTOS</h2>
+				<article class="adidas zapatillas hombre">
+					<figure>
+						<img src="../imagenes/Adidas_Zapatillas_Hombre_1.jpg" alt="">
+						<figcaption>Zapatillas Adidas Hombre FX3763 SHOWTHEWAY<br><b>Precio: S/.129.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas zapatillas hombre">
+					<figure>
+						<img src="../imagenes/Adidas_Zapatillas_Hombre_2.jpg" alt="">
+						<figcaption>Zapatillas Adidas Hombre EG3179 ASWEERUN<br><b>Precio: S/.109.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas zapatillas hombre">
+					<figure>
+						<img src="../imagenes/Adidas_Zapatillas_Hombre_3.jpg" alt="">
+						<figcaption>Zapatillas Adidas Hombre Running X9000L4<br><b>Precio: S/.329.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas ropa hombre">
+					<figure>
+						<img src="../imagenes/Adidas_Ropa_Hombre_1.jpg" alt="">
+						<figcaption>Casaca Adidas Hombre BX-20 ESTAMPADA<br><b>Precio: S/.209.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas ropa hombre">
+					<figure>
+						<img src="../imagenes/Adidas_Ropa_Hombre_2.jpg" alt="">
+						<figcaption>Shorts Adidas Hombre CROSS UP 365<br><b>Precio: S/.122.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas ropa hombre">
+					<figure>
+						<img src="../imagenes/Adidas_Ropa_Hombre_3.jpg" alt="">
+						<figcaption>Polo Adidas Hombre HEAT.RDY 3 TIRAS<br><b>Precio: S/.179.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas accesorios hombre">
+					<figure>
+						<img src="../imagenes/Adidas_Accesorios_Hombre_1.jpg" alt="">
+						<figcaption>Guantes Adidas Fútbol PREDATOR 20 MATCH<br><b>Precio: S/.199.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas accesorios hombre">
+					<figure>
+						<img src="../imagenes/Adidas_Accesorios_Hombre_2.jpg" alt="">
+						<figcaption>Maleta Adidas 4ATHLTS ID MEDIANA<br><b>Precio: S/.110.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas accesorios hombre">
+					<figure>
+						<img src="../imagenes/Adidas_Accesorios_Hombre_3.jpg" alt="">
+						<figcaption>Canilleras Adidas negra con blanco EVERCLUB<br><b>Precio: S/.28.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="nike zapatillas hombre">
+					<figure>
+						<img src="../imagenes/Nike_Zapatillas_Hombre_1.jpg" alt="">
+						<figcaption>Zapatillas Nike Hombre Revol. 5 FLYEASE<br><b>Precio: S/.189.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="nike zapatillas hombre">
+					<figure>
+						<img src="../imagenes/Nike_Zapatillas_Hombre_2.jpg" alt="">
+						<figcaption>Zapatillas Nike Hombre INFINITY RUN FLYKNIT<br><b>Precio: S/.400.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="nike zapatillas hombre">
+					<figure>
+						<img src="../imagenes/Nike_Zapatillas_Hombre_3.jpg" alt="">
+						<figcaption>Zapatillas Nike Hombre RUN ALL DAY 2<br><b>Precio: S/.209.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="nike ropa hombre">
+					<figure>
+						<img src="../imagenes/Nike_Ropa_Hombre_1.jpg" alt="">
+						<figcaption>Short Nike Hombre Negro DRI-FIT ACADEMY<br><b>Precio: S/.63.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="nike ropa hombre">
+					<figure>
+						<img src="../imagenes/Nike_Ropa_Hombre_2.jpg" alt="">
+						<figcaption>Polo Nike Sportswear JDI SWOOSH<br><b>Precio: S/.45.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="nike ropa hombre">
+					<figure>
+						<img src="../imagenes/Nike_Ropa_Hombre_3.jpg" alt="">
+						<figcaption>Short Nike Hombre Azul DRI-FIT STRIKE<br><b>Precio: S/.89.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="nike accesorios hombre">
+					<figure>
+						<img src="../imagenes/Nike_Accesorios_Hombre_1.jpg" alt="">
+						<figcaption>Gorra Nike Air Hombre Urbano CAPSULE<br><b>Precio: S/.55.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="nike accesorios hombre">
+					<figure>
+						<img src="../imagenes/Nike_Accesorios_Hombre_2.jpg" alt="">
+						<figcaption>Canguro Nike Negro con Azul FITNESS<br><b>Precio: S/.50.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="puma zapatillas hombre">
+					<figure>
+						<img src="../imagenes/Puma_Zapatillas_Hombre_1.jpg" alt="">
+						<figcaption>Zapatillas Puma Hombre SOFTRIDE RIFT<br><b>Precio: S/.169.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="puma zapatillas hombre">
+					<figure>
+						<img src="../imagenes/Puma_Zapatillas_Hombre_2.jpg" alt="">
+						<figcaption>Zapatillas Puma Hombre Fútbol SPIRIT<br><b>Precio: S/.125.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="puma zapatillas hombre">
+					<figure>
+						<img src="../imagenes/Puma_Zapatillas_Hombre_3.jpg" alt="">
+						<figcaption>Zapatillas Puma Hombre Negra COMET<br><b>Precio: S/.125.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="puma ropa hombre">
+					<figure>
+						<img src="../imagenes/Puma_Ropa_Hombre_1.jpg" alt="">
+						<figcaption>Polerón Puma Sport ESSENTIALS FLEECE<br><b>Precio: S/.90.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="puma ropa hombre">
+					<figure>
+						<img src="../imagenes/Puma_Ropa_Hombre_2.jpg" alt="">
+						<figcaption>Pantalones Buzo Puma ESS+ POCKET PANTS<br><b>Precio: S/.89.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article id="casaca-puma" class="puma ropa hombre" tabindex="10">
+					<figure>
+						<img src="../imagenes/Puma_Ropa_Hombre_3.jpg" alt="">
+						<figcaption>Casaca Puma Run GRAPHIC HOODED<br><b>Precio: S/.139.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="puma accesorios hombre">
+					<figure>
+						<img src="../imagenes/Puma_Accesorios_Hombre_1.jpg" alt="">
+						<figcaption>Maleta Puma Hombre PHASE SPORTS<br><b>Precio: S/.55.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="puma accesorios hombre">
+					<figure>
+						<img src="../imagenes/Puma_Accesorios_Hombre_2.jpg" alt="">
+						<figcaption>Guantes Puma Color Negro GYM STYLE<br><b>Precio: S/.83.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="puma accesorios hombre">
+					<figure>
+						<img src="../imagenes/Puma_Accesorios_Hombre_3.jpg" alt="">
+						<figcaption>Gorro Puma Hombre TRAINING Bb<br><b>Precio: S/.39.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas zapatillas mujer">
+					<figure>
+						<img src="../imagenes/Adidas_Zapatillas_Mujer_1.jpg" alt="">
+						<figcaption>Zapatillas Adidas Mujer Urbanas COURTSMASH<br><b>Precio: S/.137.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas zapatillas mujer">
+					<figure>
+						<img src="../imagenes/Adidas_Zapatillas_Mujer_2.jpg" alt="">
+						<figcaption>Zapatillas Adidas Mujer Tenis COURTSMASH<br><b>Precio: S/.137.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas ropa mujer">
+					<figure>
+						<img src="../imagenes/Adidas_Ropa_Mujer_1.jpg" alt="">
+						<figcaption>Casaca Adidas Mujer UNLEASH CONFIDENCE<br><b>Precio: S/.190.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas ropa mujer">
+					<figure>
+						<img src="../imagenes/Adidas_Ropa_Mujer_2.jpg" alt="">
+						<figcaption>Malla Adidas Mujer Training COLORBLOCK<br><b>Precio: S/.92.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas ropa mujer">
+					<figure>
+						<img src="../imagenes/Adidas_Ropa_Mujer_3.jpg" alt="">
+						<figcaption>Polo Adidas Mujer Deportivo ESSENTIALS<br><b>Precio: S/.62.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas accesorios mujer">
+					<figure>
+						<img src="../imagenes/Adidas_Accesorios_Mujer_1.jpg" alt="">
+						<figcaption>Bolso Adidas Unisex Deportivo TOTE SPORT<br><b>Precio: S/.119.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas accesorios mujer">
+					<figure>
+						<img src="../imagenes/Adidas_Accesorios_Mujer_2.jpg" alt="">
+						<figcaption>Gorra Adidas Unisex Training AEROREADY<br><b>Precio: S/.48.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="nike zapatillas mujer">
+					<figure>
+						<img src="../imagenes/Nike_Zapatillas_Mujer_1.jpg" alt="">
+						<figcaption>Zapatillas Nike Mujer Running FLEX CONTACT<br><b>Precio: S/.222.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="nike zapatillas mujer">
+					<figure>
+						<img src="../imagenes/Nike_Zapatillas_Mujer_2.jpg" alt="">
+						<figcaption>Zapatillas Nike Mujer Running FLEX CONTACT<br><b>Precio: S/.255.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="nike zapatillas mujer">
+					<figure>
+						<img src="../imagenes/Nike_Zapatillas_Mujer_3.jpg" alt="">
+						<figcaption>Zapatillas Nike Mujer Deportivas ELITE<br><b>Precio: S/.265.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="nike ropa mujer">
+					<figure>
+						<img src="../imagenes/Nike_Ropa_Mujer_1.jpg" alt="">
+						<figcaption>Polo Nike Mujer Negro Running STANDARD<br><b>Precio: S/.45.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="nike ropa mujer">
+					<figure>
+						<img src="../imagenes/Nike_Ropa_Mujer_2.jpg" alt="">
+						<figcaption>Bra Nike Mujer Rosado MED FUTURA<br><b>Precio: S/.80.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="nike ropa mujer">
+					<figure>
+						<img src="../imagenes/Nike_Ropa_Mujer_3.jpg" alt="">
+						<figcaption>Pantalones Nike Mujer Leggings TRAINING<br><b>Precio: S/.125.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="puma zapatillas mujer">
+					<figure>
+						<img src="../imagenes/Puma_Zapatillas_Mujer_1.jpg" alt="">
+						<figcaption>Zapatillas Puma Mujer Negras con Rosado RUNNING<br><b>Precio: S/.169.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="puma zapatillas mujer">
+					<figure>
+						<img src="../imagenes/Puma_Zapatillas_Mujer_2.jpg" alt="">
+						<figcaption>Zapatillas Puma Mujer Blancas CILIA MODE<br><b>Precio: S/.139.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="puma ropa mujer">
+					<figure>
+						<img src="../imagenes/Puma_Ropa_Mujer_1.jpg" alt="">
+						<figcaption>Polo Puma Mujer Rosado CAT STANDARD<br><b>Precio: S/.59.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="puma ropa mujer">
+					<figure>
+						<img src="../imagenes/Puma_Ropa_Mujer_2.jpg" alt="">
+						<figcaption>Buzo Puma Mujer CLASSIC TRICOTOP<br><b>Precio: S/.132.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="puma ropa mujer">
+					<figure>
+						<img src="../imagenes/Puma_Ropa_Mujer_3.jpg" alt="">
+						<figcaption>Shorts Puma Mujer Azul ACTIVE WOVEN<br><b>Precio: S/.41.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="puma accesorios mujer">
+					<figure>
+						<img src="../imagenes/Puma_Accesorios_Mujer_1.jpg" alt="">
+						<figcaption>Maletín Puma Unisex Guinda AT SHIFT<br><b>Precio: S/.133.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas zapatillas niño">
+					<figure>
+						<img src="../imagenes/Adidas_Zapatillas_Niño_1.jpg" alt="">
+						<figcaption>Zapatillas Niño Unisex Running LITE RACER<br><b>Precio: S/.73.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas zapatillas niño">
+					<figure>
+						<img src="../imagenes/Adidas_Zapatillas_Niño_2.jpg" alt="">
+						<figcaption>Zapatillas Niña Unisex Running TENSAUR<br><b>Precio: S/.90.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas zapatillas niño">
+					<figure>
+						<img src="../imagenes/Adidas_Zapatillas_Niño_3.jpg" alt="">
+						<figcaption>Zapatillas Niño Unisex Urbanas ZX FLUX<br><b>Precio: S/.139.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas ropa niño">
+					<figure>
+						<img src="../imagenes/Adidas_Ropa_Niño_1.jpg" alt="">
+						<figcaption>Buzo Adidas Niño Azul Training ENTRY<br><b>Precio: S/.149.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas ropa niño">
+					<figure>
+						<img src="../imagenes/Adidas_Ropa_Niño_2.jpg" alt="">
+						<figcaption>Casaca Adidas Niño TRIFOLIO ADICOLOR<br><b>Precio: S/.169.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas ropa niño">
+					<figure>
+						<img src="../imagenes/Adidas_Ropa_Niño_3.jpg" alt="">
+						<figcaption>Buzo Adidas Niña Rosado con Negro POLIESTER<br><b>Precio: S/.189.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas ropa niño">
+					<figure>
+						<img src="../imagenes/Adidas_Ropa_Niño_4.jpg" alt="">
+						<figcaption>Polera Adidas Niña TRIFOLIO ADICOLOR<br><b>Precio: S/.135.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas ropa niño">
+					<figure>
+						<img src="../imagenes/Adidas_Ropa_Niño_5.jpg" alt="">
+						<figcaption>Polo Adidas Niño Azul CLASSIC BOLD<br><b>Precio: S/.63.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas accesorios niño">
+					<figure>
+						<img src="../imagenes/Adidas_Accesorios_Niño_1.jpg" alt="">
+						<figcaption>Canilleras Adidas Niño Modelo MESSI MTC<br><b>Precio: S/.34.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas accesorios niño">
+					<figure>
+						<img src="../imagenes/Adidas_Accesorios_Niño_2.jpg" alt="">
+						<figcaption>Kit de Natación Adidas Niño UNISEX<br><b>Precio: S/.47.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas accesorios niño">
+					<figure>
+						<img src="../imagenes/Adidas_Accesorios_Niño_3.jpg" alt="">
+						<figcaption>Guantes Adidas Niño SUPER CAMPEONES<br><b>Precio: S/.65.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="adidas accesorios niño">
+					<figure>
+						<img src="../imagenes/Adidas_Accesorios_Niño_4.jpg" alt="">
+						<figcaption>Mochila Adidas Niño Unisex POWER5<br><b>Precio: S/.119.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="nike zapatillas niño">
+					<figure>
+						<img src="../imagenes/Nike_Zapatillas_Niño_1.jpg" alt="">
+						<figcaption>Zapatillas Nike Niño Fútbol LEGEND CLUB<br><b>Precio: S/.155.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="nike zapatillas niño">
+					<figure>
+						<img src="../imagenes/Nike_Zapatillas_Niño_2.jpg" alt="">
+						<figcaption>Zapatillas Nike Niño Unisex YOUNG ATHLETES<br><b>Precio: S/.127.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="nike zapatillas niño">
+					<figure>
+						<img src="../imagenes/Nike_Zapatillas_Niño_3.jpg" alt="">
+						<figcaption>Zapatillas Nike Niño FLEX EXPERIENCE<br><b>Precio: S/.154.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="puma zapatillas niño">
+					<figure>
+						<img src="../imagenes/Puma_Zapatillas_Niño_1.jpg" alt="">
+						<figcaption>Zapatillas Puma Niño Unisex TAPER AC PS<br><b>Precio: S/.77.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="puma zapatillas niño">
+					<figure>
+						<img src="../imagenes/Puma_Zapatillas_Niño_2.jpg" alt="">
+						<figcaption>Zapatillas Puma Niño Unisex VIKKY GLITZ<br><b>Precio: S/.95.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+				<article class="puma zapatillas niño">
+					<figure>
+						<img src="../imagenes/Puma_Zapatillas_Niño_3.jpg" alt="">
+						<figcaption>Zapatillas Puma Niño Unisex SMASH<br><b>Precio: S/.97.90</b></figcaption>
+					</figure>
+					<input type="button" value="Comprar">
+				</article>
+			</section>
+		</main>
+		<footer>
+			<div class="datos">
+				<p><i class="fas fa-map-marker-alt"></i>Av. Brasil 702 - Breña</p>
+				<p><i class="fas fa-envelope"></i>i202020288@cibertec.edu.pe</p>
+				<p>
+					SÍGUENOS EN:
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+				</p>
+			</div>
+			<div class="enlaces">
+				<h2>DIRICO</h2>
+				<a href="la_empresa.html">Sobre nosotros</a><br>
+				<a href="contacto.html">Contacto</a><br>
+				<a href="mapa_sitio.html">Mapa de sitio</a><br>
+			</div>
+			<div class="enlaces">
+				<h2>ATENCIÓN AL USUARIO</h2>
+				<a href="preguntas_frecuentes.html">Preguntas frecuentes</a><br>
+				<a href="terminos_condiciones.html">Términos y condiciones</a><br>
+				<a href="politica_privacidad.html">Política de privacidad</a><br>
+			</div>
+			<p>© COPYRIGHT 2020. TODOS LOS DERECHOS RESERVADOS - DIRICO PERÚ.</p>
+		</footer>
+	</div>
+	<script src="../js/productos.js"></script>
+	<script src="../js/zoom.js"></script>
+</body>
+</html>

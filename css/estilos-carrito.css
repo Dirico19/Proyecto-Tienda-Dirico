@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+main {
+  background: #ffffff;
+  display: flex;
+}
+aside {
+  width: 280px;
+  background: #9797ad;
+  padding: 20px 10px;
+  color: #14113a;
+}
+aside h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+aside h3 {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px;
+}
+aside input {
+  padding: 10px;
+  color: #14113a;
+  background: #ffffff;
+  display: block;
+  margin: 10px auto;
+  border-radius: 12px;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  width: 90%;
+}
+aside #comprar {
+  padding: 15px;
+  color: #ffffff;
+  background: #14113a;
+  display: block;
+  margin: auto;
+  border-radius: 12px;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  width: 90%;
+}
+
+section {
+  display: flex;
+  justify-content: left;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  width: 720px;
+  height: 900px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+section h2 {
+  flex: 100%;
+  text-align: center;
+  font-size: 30px;
+  margin: 20px 0;
+  color: #14113a;
+}
+article {
+  width: 100%;
+  padding: 20px;
+}
+figure {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+figure img {
+  width: 20%;
+}
+figure div {
+  width: 80%;
+  text-align: left;
+  color: #14113a;
+  font-size: 16px;
+  padding: 10px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article input {
+  width: 70%;
+  padding: 5px;
+  color: #ffffff;
+  background: #14113a;
+  border-radius: 12px;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+article input:hover,
+#comprar:hover {
+  background: #2b248b;
+}
+
+table {
+  width: 100%;
+}
+td,
+th {
+  text-align: center;
+  padding: 10px;
+}
+.borrar {
+  width: 50%;
+  font-size: 16px;
+  border-radius: 50%;
+  padding: 0 5px 5px;
+  background-color: #14113a;
+  color: #ffffff;
+}

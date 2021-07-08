@@ -1,0 +1,203 @@
+.seccion-banner {
+  background: #35c5cf;
+  padding: 0 10px 10px;
+}
+.divcab {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+.contorno {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  border: 10px solid #ddf;
+  z-index: 900;
+  cursor: pointer;
+}
+.banner {
+  width: 300%;
+  height: 300px;
+  position: absolute;
+  display: flex;
+  background-color: #14113a;
+}
+.slider {
+  width: calc(100% / 3);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: 10px solid #ddf;
+}
+#izq,
+#der {
+  position: absolute;
+  padding: 0 5px;
+  left: 15px;
+  top: calc(50% - 25px);
+  z-index: 999;
+  background-color: #ddf;
+  color: #14113a;
+  border-radius: 10px;
+  font-size: 40px;
+  font-family: "Fredoka One";
+  transition: background-color 0.5s;
+  user-select: none;
+}
+#der {
+  left: calc(100% - 50px);
+}
+#izq:hover,
+#der:hover {
+  cursor: pointer;
+  background-color: #bbf;
+  transition: background-color 0.5s;
+}
+.puntos-sliders {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: calc(50% - 50px);
+  top: calc(100% - 45px);
+  z-index: 900;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+.puntos-sliders div {
+  width: 20px;
+  height: 100%;
+  background-color: #14113a;
+  border-radius: 50%;
+  border: 2.5px solid #ddf;
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+  background: #ffffff;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #14113a;
+  width: 100%;
+}
+.producto {
+  display: flex;
+  margin: 20px 0;
+}
+.parte-grande {
+  flex: 1 1 50%;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.parte-grande a {
+  background: #14113a;
+  color: #ffffff;
+  margin-top: 10px;
+  padding: 10px 30px;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.parte-grande a:hover {
+  background: #2b248b;
+}
+.parte-chica {
+  flex: 1 1 25%;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.parte-chica div {
+  text-align: center;
+  padding: 10px;
+}
+.parte-chica a {
+  color: #14113a;
+  font-size: 20px;
+  line-height: 1.5;
+}
+h3 {
+  position: absolute;
+  margin-top: 10px;
+  font-size: 25px;
+  color: #14113a;
+  text-shadow: 0 0 5px #c5c2ff;
+}
+
+.sobre-marcas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.video {
+  flex: 1 1 30%;
+  margin: 20px 10px;
+  text-align: center;
+}
+.video iframe {
+  width: 100%;
+  height: 250px;
+}
+.video a {
+  color: #14113a;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.form-suscribirse {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  color: #14113a;
+}
+
+.form-suscribirse > p {
+  flex: 50%;
+  font-size: 28px;
+  text-align: center;
+  padding: 0 35px;
+}
+.form-rellenar {
+  flex: 50%;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.caja-texto {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #14113a;
+}
+.form-aceptar {
+  display: flex;
+  align-items: center;
+}
+.form-aceptar p {
+  flex: 50%;
+  font-size: 14px;
+  margin: 0 5px;
+}
+.btn-enviar {
+  flex: 10%;
+  padding: 10px 0;
+  background: #14113a;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: "Lato";
+}
+
+img {
+  width: 100%;
+}

@@ -1,0 +1,124 @@
+header {
+  background: #35c5cf;
+  padding: 10px 20px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.barra-inicial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  flex: 20%;
+}
+.logo img {
+  width: 50%;
+}
+nav {
+  flex: 60%;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.menu li a {
+  color: #14113a;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  padding: 10px 20px;
+  background: #ffffff;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 5px #14113a;
+  transition: background 0.5s;
+}
+.menu li a:hover {
+  background: #c5c2ff;
+  transition: background 0.5s;
+}
+.menu li {
+  display: flex;
+  position: relative;
+}
+.menu ul {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  flex-direction: column;
+  visibility: hidden;
+  z-index: 999;
+}
+.menu li:hover ul {
+  visibility: visible;
+}
+.menu ul li {
+  width: 100%;
+}
+.otros {
+  flex: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+.buscar {
+  width: 45%;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  color: #ffffff;
+  background: #14113a;
+}
+.otros a {
+  width: 20%;
+  margin-left: 5px;
+  font-size: 26px;
+  color: #ffffff;
+  background: #14113a;
+  padding: 5px;
+  border-radius: 3px;
+  text-align: center;
+}
+.otros a div {
+  position: absolute;
+  background-color: #ffffff;
+  width: 400px;
+  top: 78px;
+  left: 580px;
+  display: none;
+  padding: 10px 10px 0;
+  border: 1px solid #14113a;
+  border-radius: 10px;
+}
+.otros a div p {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  align-items: center;
+  color: #14113a;
+}
+.otros a div img {
+  width: 20%;
+}
+.otros a div .titulo {
+  width: 50%;
+  font-size: 14px;
+}
+.otros a div .precio {
+  width: 20%;
+  font-size: 16px;
+}
+.otros a div .borrar {
+  width: 5%;
+  font-size: 16px;
+  border-radius: 50%;
+  padding: 0 0 4px;
+}
+.otros a:hover div {
+  display: block;
+}

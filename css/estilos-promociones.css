@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+main {
+  background: #ffffff;
+  display: flex;
+}
+aside {
+  width: 280px;
+  background: #9797ad;
+  padding: 20px 10px;
+  color: #14113a;
+}
+aside h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.video {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.video iframe {
+  width: 100%;
+}
+.video a {
+  color: #14113a;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px;
+}
+section {
+  width: 720px;
+  height: 1310px;
+  display: flex;
+  justify-content: left;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+section h2 {
+  flex: 100%;
+  text-align: center;
+  font-size: 30px;
+  margin: 20px 0;
+  color: #14113a;
+}
+article {
+  width: 33%;
+  padding: 20px;
+}
+figure img {
+  width: 100%;
+}
+figcaption {
+  text-align: center;
+  color: #14113a;
+  font-size: 18px;
+  padding: 10px;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+article input {
+  padding: 10px 20px;
+  color: #ffffff;
+  background: #14113a;
+  display: block;
+  margin: auto;
+  border-radius: 12px;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+article input:hover {
+  background: #2b248b;
+}

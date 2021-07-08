@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DIRICO</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/all.css">
+	<link rel="stylesheet" href="../css/cabecera.css">
+	<link rel="stylesheet" href="../css/pie.css">
+	<link rel="stylesheet" href="../css/estilos-carrito.css">
+	<link rel="icon" href="../imagenes/logo.ico">
+</head>
+
+<body>
+	<div id="contenedor">
+		<header>
+			<div class="barra-inicial">
+				<div class="logo">
+					<a href="../index.html"><img src="../imagenes/logo.PNG"></a>
+				</div>
+				<nav>
+					<ul class="menu">
+						<li><a href="la_empresa.html">LA EMPRESA</a>
+							<ul>
+								<li><a href="la_empresa.html">SOBRE NOSOTROS</a></li>
+							</ul>
+						</li>
+						<li><a href="productos.html">PRODUCTOS</a>
+							<ul>
+								<li><a href="productos.html">HOMBRE</a></li>
+								<li><a href="productos.html">MUJER</a></li>
+								<li><a href="productos.html">NIÑO</a></li>
+							</ul>
+						</li>
+						<li><a href="promociones.html">PROMOCIONES</a></li>
+						<li><a href="contacto.html">CONTACTO</a></li>
+					</ul>
+				</nav>
+				<div class="otros">
+					<a href="iniciar_sesion.html"><i class="fas fa-user"></i></a>
+					<a href="#"><i class="fas fa-shopping-cart"></i></a>
+				</div>
+			</div>
+		</header>
+		<main>
+			<aside>
+				<h2>RESUMEN DE TU ORDEN</h2>
+				<h3>Costo total de los productos</h3>
+				<h3 class="total"></h3>
+				<form action="">
+					<input type="text" name="nombre" id="nombre" placeholder="Nombre">
+					<input type="text" name="correo" id="correo" placeholder="Correo Electrónico">
+					<input id="comprar" type="button" value="COMPRAR">
+				</form>
+			</aside>
+			<section>
+				<h2>CARRITO DE COMPRAS</h2>
+			</section>
+		</main>
+		<footer>
+			<div class="datos">
+				<p><i class="fas fa-map-marker-alt"></i>Av. Brasil 702 - Breña</p>
+				<p><i class="fas fa-envelope"></i>i202020288@cibertec.edu.pe</p>
+				<p>
+					SÍGUENOS EN:
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+				</p>
+			</div>
+			<div class="enlaces">
+				<h2>DIRICO</h2>
+				<a href="la_empresa.html">Sobre nosotros</a><br>
+				<a href="contacto.html">Contacto</a><br>
+				<a href="mapa_sitio.html">Mapa de sitio</a><br>
+			</div>
+			<div class="enlaces">
+				<h2>ATENCIÓN AL USUARIO</h2>
+				<a href="preguntas_frecuentes.html">Preguntas frecuentes</a><br>
+				<a href="terminos_condiciones.html">Términos y condiciones</a><br>
+				<a href="politica_privacidad.html">Política de privacidad</a><br>
+			</div>
+			<p>© COPYRIGHT 2020. TODOS LOS DERECHOS RESERVADOS - DIRICO PERÚ.</p>
+		</footer>
+	</div>
+	<script src="../js/carrito.js"></script>
+</body>
+</html>

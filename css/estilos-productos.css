@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+main {
+  background: #ffffff;
+  display: flex;
+}
+aside {
+  width: 280px;
+  background: #9797ad;
+  padding: 20px 10px;
+  color: #14113a;
+}
+aside h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+aside h3 {
+  font-size: 24px;
+  margin: 20px;
+}
+aside label {
+  display: block;
+  background: #14113a;
+  color: #ffffff;
+  width: 150px;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+section {
+  display: flex;
+  justify-content: left;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  width: 720px;
+  height: 1310px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+section h2 {
+  flex: 100%;
+  text-align: center;
+  font-size: 30px;
+  margin: 20px 0;
+  color: #14113a;
+}
+article {
+  width: 33%;
+  padding: 20px;
+}
+figure img {
+  width: 100%;
+}
+figcaption {
+  text-align: center;
+  color: #14113a;
+  font-size: 18px;
+  padding: 10px;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+article input {
+  padding: 10px 20px;
+  color: #ffffff;
+  background: #14113a;
+  display: block;
+  margin: auto;
+  border-radius: 12px;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+article input:hover {
+  background: #2b248b;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+#sexo:checked ~ aside label[for="sexo"],
+#hombre:checked ~ aside label[for="hombre"],
+#mujer:checked ~ aside label[for="mujer"],
+#niño:checked ~ aside label[for="niño"],
+#categoria:checked ~ aside label[for="categoria"],
+#zapatillas:checked ~ aside label[for="zapatillas"],
+#ropa:checked ~ aside label[for="ropa"],
+#accesorios:checked ~ aside label[for="accesorios"],
+#marca:checked ~ aside label[for="marca"],
+#adidas:checked ~ aside label[for="adidas"],
+#nike:checked ~ aside label[for="nike"],
+#puma:checked ~ aside label[for="puma"] {
+  background: #2b248b;
+}

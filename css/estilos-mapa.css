@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+main{
+	padding: 20px;
+	background: #ffffff;
+}
+section{
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
+}
+	section>ul{
+		background: #9797ad;
+		margin: auto;
+		padding: 20px 50px;
+		border: 1px solid #14113a;
+		border-radius: 20px;
+	}
+	section ul li{
+		margin: 20px 0;
+	}
+	section ul li ul li{
+		margin-left: 40px;
+		list-style: square;
+	}
+	section a{
+		color: #14113a;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	section a:hover{
+		color: #35c5cf;
+	}

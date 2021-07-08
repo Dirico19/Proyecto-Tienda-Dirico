@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+main{
+	background: #ffffff;
+	display: flex;
+	flex-wrap: wrap;
+	color: #14113a;
+}
+main h2{
+	flex: 100%;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 30px;
+}
+.izquierda{
+	flex: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 30px;
+	text-align: center;
+}
+	.izquierda h3{
+		font-size: 26px;
+		margin-bottom: 20px;
+	}
+	.izquierda p{
+		font-size: 20px;
+		margin: 20px;
+	}
+	.izquierda a{
+		color: #14113a;
+		margin: 0 10px;
+		font-size: 30px;
+	}
+
+.derecha{
+	flex: 40%;
+	background: #9797ad;
+	margin: 30px;
+	text-align: center;
+	padding: 30px;
+	padding-top: 10px;
+	border: 1px solid #14113a;
+}
+	.derecha p{
+		font-size: 20px;
+		margin: 20px;
+	}
+	.caja{
+		width: 100%;
+		margin: 10px 0;
+		padding: 10px;
+		font-size: 20px;
+		font-family: 'Lato', sans-serif;
+		border-radius: 10px;
+		border: 1px solid #14113a;
+	}
+	.derecha div{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: -10px;
+	}
+	.check{
+		margin-right: 10px;
+	}
+	.enviar-contacto{
+		padding: 12px;
+		width: 85%;
+		background: #14113a;
+		color: #ffffff;
+		font-size: 20px;
+		font-family: 'Lato', sans-serif;
+		font-weight: bold;
+		border-radius: 12px;
+		margin-top: 20px;
+	}

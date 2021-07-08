@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DIRICO</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/all.css">
+	<link rel="stylesheet" href="../css/cabecera.css">
+	<link rel="stylesheet" href="../css/pie.css">
+	<link rel="stylesheet" href="../css/estilos-preguntas.css">
+	<link rel="icon" href="../imagenes/logo.ico">
+</head>
+
+<body>
+	<div id="contenedor">
+		<header>
+			<div class="barra-inicial">
+				<div class="logo">
+					<a href="../index.html"><img src="../imagenes/logo.PNG"></a>
+				</div>
+				<nav>
+					<ul class="menu">
+						<li><a href="la_empresa.html">LA EMPRESA</a>
+							<ul>
+								<li><a href="la_empresa.html">SOBRE NOSOTROS</a></li>
+							</ul>
+						</li>
+						<li><a href="productos.html">PRODUCTOS</a>
+							<ul>
+								<li><a href="productos.html">HOMBRE</a></li>
+								<li><a href="productos.html">MUJER</a></li>
+								<li><a href="productos.html">NIÑO</a></li>
+							</ul>
+						</li>
+						<li><a href="promociones.html">PROMOCIONES</a></li>
+						<li><a href="contacto.html">CONTACTO</a></li>
+					</ul>
+				</nav>
+				<div class="otros">
+					<a href="iniciar_sesion.html"><i class="fas fa-user"></i></a>
+					<a href="carrito.html">
+						<i class="fas fa-shopping-cart"></i>
+						<div>
+							
+						</div>
+					</a>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section>
+				<h2>PREGUNTAS FRECUENTES</h2>
+				<button type="button" onclick="mostrarRespuesta();" ondblclick="ocultarRespuesta();">¿Es necesario registrarme para realizar una compra?</button>
+				<div id="caja1">
+					<p>
+						No es necesario registrarse. Puedes realizar un pedido en la tienda online como invitado, pero, te recomendamos registrarte ya que te ahorrará tiempo cuando vuelvas a hacer un pedido en la tienda online.
+					</p>
+				</div>
+
+				<button type="button" onclick="RespuestaMostrada();" ondblclick="RespuestaOcultada();">¿Cuáles son los beneficios de estar registrado?</button>
+				<div id="caja2">
+					<p>
+						Al registrarte accedes a beneficios exclusivos y ofertas especiales, además, podrás revisar el historial de tus compras y guardar tus datos para comprar más rápido en las siguientes ocasiones.
+					</p>
+				</div>
+
+				<button type="button" onclick="Mostrar();" ondblclick="Ocultar();">¿A dónde debo comunicarme para iniciar un proceso de devolución?</button>
+				<div id="caja3">
+					<p>
+						Debes ponerte en contacto con nosotros mediante nuestro correo electrónico i202020288@cibertec.edu.pe
+					</p>
+				</div>
+
+				<button type="button" onclick="Primero();" ondblclick="Segundo();">Realicé mi compra y no he recibido el correo de confirmación</button>
+				<div id="caja4">
+					<p>
+						El correo de confirmación por parte de la tienda lo estarás recibiendo dentro de un plazo máximo de 72 horas, si este plazo se ha excedido y aún no recibes el correo, te pedimos por favor te comuniques al centro de servicio al cliente en nuestras redes sociales, o bien enviar un correo electrónico a i202020288@cibertec.edu.pe, para que se pueda validar que la compra se haya realizado correctamente.
+					</p>
+				</div>
+
+				<button type="button" onclick="Que();" ondblclick="Bueno();">¿Cuánto tiempo debo esperar para mi reembolso?</button>
+				<div id="caja5">
+					<p>
+						A pesar de que por parte nuestra se realiza la devolución de forma automática a tu cuenta, tendrás que esperar un periodo de 25 a 30 días hábiles para poder confirmar que el reembolso sea efectivo.
+					</p>
+				</div>
+
+				<button type="button" onclick="Tercero();" ondblclick="Cuarto();">¿Cómo encuentro el producto que estoy buscando?</button>
+				<div id="caja6">
+					<p>
+						Si necesitas ayuda para encontrar un producto, utiliza nuestro buscador de productos situado en la parte superior de nuestra página. Solo tienes que introducir una o más palabras clave o un número de artículo en el campo de búsqueda y hacer clic en la lupa. En la página se mostrarán los resultados de la búsqueda acompañados de links a productos o grupos de productos. Puedes redefinir tu búsqueda seleccionando varias categorías en la parte izquierda de la página de los resultados de búsqueda
+					</p>
+				</div>
+			</section>	
+		</main>
+		<footer>
+			<div class="datos">
+				<p><i class="fas fa-map-marker-alt"></i>Av. Brasil 702 - Breña</p>
+				<p><i class="fas fa-envelope"></i>i202020288@cibertec.edu.pe</p>
+				<p>
+					SÍGUENOS EN:
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+				</p>
+			</div>
+			<div class="enlaces">
+				<h2>DIRICO</h2>
+				<a href="la_empresa.html">Sobre nosotros</a><br>
+				<a href="contacto.html">Contacto</a><br>
+				<a href="mapa_sitio.html">Mapa de sitio</a><br>
+			</div>
+			<div class="enlaces">
+				<h2>ATENCIÓN AL USUARIO</h2>
+				<a href="preguntas_frecuentes.html">Preguntas frecuentes</a><br>
+				<a href="terminos_condiciones.html">Términos y condiciones</a><br>
+				<a href="politica_privacidad.html">Política de privacidad</a><br>
+			</div>
+			<p>© COPYRIGHT 2020. TODOS LOS DERECHOS RESERVADOS - DIRICO PERÚ.</p>
+		</footer>
+	</div>
+
+	<script src="../js/preguntas.js"></script>
+	<script src="../js/vistaprevia-carrito.js"></script>
+</body>
+</html>
